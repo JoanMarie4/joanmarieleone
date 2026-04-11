@@ -19,14 +19,17 @@ const Home = () => (
                     <h2 className="text-[#61538f] mb-3 font-bold">
                         About Me
                     </h2>
+                    <p className="font-semibold leading-relaxes mb-2">
+                        I graduated with a Master's in Computer Science at Binghamton University, specializing in AI.
+                    </p>
 
                     <p className="font-semibold leading-relaxed mb-2">
-                        I'm especially interested in AI and how it connects with and impacts different areas of computer science. Alongside AI, I've been building experience in web development to broaden my skills and work on new and interesting projects. This portfolio is part of that journey, where I focus on strengthening my full-stack development skills while continuing to grow in AI and showcase my projects and interests.
+                        I'm especially interested in AI and how it connects with and impacts different areas of computer science. Additionally, I've been building experience in web development to broaden my skills and work on new and interesting projects. This portfolio is part of that journey, where I focus on strengthening my full-stack development skills while continuing to grow in AI and showcase my projects and interests.
                     </p>
 
-                    <p className="font-semibold leading-relaxed">
+                    {/*<p className="font-semibold leading-relaxed">
                         When I'm not coding, I enjoy playing guitar, video games, and spending time with my dog.
-                    </p>
+                    </p>*/}
                 </div>
 
                 {/* Image */}
