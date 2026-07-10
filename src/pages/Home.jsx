@@ -2,7 +2,7 @@ import About from "../components/About.jsx";
 import React from "react";
 
 const Home = () => (
-    <main>
+    <div>
         {/* <div className="pattern" /> */}
         <div className="wrapper">
             <header>
@@ -11,10 +11,9 @@ const Home = () => (
                     Welcome to My Website!
                 </h1>
             </header>
-
             <About />
         </div>
-    </main>
+    </div>
 )
 
 export default Home;
