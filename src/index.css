@@ -5,17 +5,17 @@
 
 footer svg {
     font-size: 32px;
-    color: #958aba;
+    color: var(--color-accent-light);
     transition: color 0.3s, transform 0.2s;
 }
 
 footer a:hover svg {
-    color: #61538f;
+    color: var(--color-accent);
     transform: scale(1.2);
 }
 
 @theme {
-    --color-primary: #FFFAA0;
+    --color-primary: #f9f9f9;
 
     --color-light-100: #cecefb;
     --color-light-200: #a8b5db;
@@ -24,20 +24,25 @@ footer a:hover svg {
 
     --color-dark-100: #0f0d23;
 
+    --color-foreground: #48494b;
+    --color-accent: #61538f;
+    --color-accent-light: #958aba;
+    --color-accent-foreground: #cccbd1;
+
+    --color-surface: #cccbd1;
+    --color-surface-foreground: #222021;
+
     --font-dm-sans: DM Sans, sans-serif;
 
     --breakpoint-xs: 480px;
-
-    --background-image-hero-pattern: url("/hero-bg.png");
 }
 
 @layer base {
     body {
         font-family: "DM Sans", serif;
         font-optical-sizing: auto;
-        background: #FFFAA0;
         margin: 0;
-        @apply text-[#48494B];
+        @apply bg-primary text-foreground;
     }
 
     h1 {
@@ -62,17 +67,13 @@ footer a:hover svg {
 }
 
 @layer components {
-    .pattern {
-        @apply bg-hero-pattern w-full h-screen bg-center bg-cover absolute z-0;
-    }
-
     .wrapper {
         @apply pt-0 px-5 py-0 xs:p-10 max-w-7xl xs:pt-0 mx-auto flex flex-col relative z-10;
     }
 }
 
 @utility text-gradient {
-    @apply bg-linear-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
+    @apply bg-linear-to-r from-accent-light to-accent bg-clip-text text-transparent;
 }
 
 @utility fancy-text {

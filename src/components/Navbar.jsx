@@ -1,5 +1,6 @@
 import {NavLink} from "react-router-dom";
 import React from "react";
+import '../index.css'
 
 const Navbar = () => (
     <nav className="flex justify-center gap-4 m-5 px-4 py-3 bg-[#48494B] rounded-2xl">
@@ -7,8 +8,8 @@ const Navbar = () => (
             className={({ isActive }) =>
                 `px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-300 ${
                     isActive
-                        ? "bg-[#61538f] text-[#cccbd1]"
-                        : "bg-[#cccbd1] text-[#222021] hover:bg-[#958aba]"
+                        ? "bg-accent text-accent-foreground font-semibold shadow-md"
+                        : "bg-[#cccbd1] text-surface-foreground hover:bg-accent-light"
                 }`
             }
             to="/"
@@ -19,8 +20,8 @@ const Navbar = () => (
             className={({ isActive }) =>
                 `px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-300 ${
                     isActive
-                        ? "bg-[#61538f] text-[#cccbd1]"
-                        : "bg-[#cccbd1] text-[#222021] hover:bg-[#958aba]"
+                        ? "bg-accent text-accent-foreground font-semibold shadow-md"
+                        : "bg-[#cccbd1] text-surface-goreground hover:bg-accent-light"
                 }`
             }
             to="/projects"
