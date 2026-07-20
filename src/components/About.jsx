@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return <div>
-        <section className="about mx-auto w-full px-10 lg:px-20 py-16 flex flex-col md:flex-row gap-12 items-center">
+        <section className="about mx-auto w-full px-8 lg:px-16 py-16 flex flex-col md:flex-row gap-12 items-center">
             {/* Text */}
             <div className="flex-1">
                 <h2 className="text-accent mb-4 text-3xl font-bold">
@@ -13,7 +13,9 @@ const About = () => {
                 </p>
 
                 <p className="font-semibold leading-relaxed mb-4 text-lg">
-                    I'm especially interested in AI and how it connects with and impacts different areas of computer science. Additionally, I've been building experience in web development to broaden my skills and work on new and interesting projects. This portfolio is part of that journey, where I focus on strengthening my full-stack development skills while continuing to grow in AI and showcase my projects and interests.
+                    I'm especially interested in AI and how it connects with and impacts different areas of computer science. 
+                    Additionally, I've been building experience in web development to broaden my skills and work on new and interesting projects. 
+                    This portfolio is part of that journey, where I focus on strengthening my full-stack development skills while showcasing my projects and interests.
                 </p>
 
                 {/*<p className="font-semibold leading-relaxed">
