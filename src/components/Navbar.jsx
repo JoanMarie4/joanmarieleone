@@ -8,8 +8,8 @@ const Navbar = () => (
             className={({ isActive }) =>
                 `px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-300 ${
                     isActive
-                        ? "bg-accent text-accent-foreground font-semibold shadow-md"
-                        : "bg-[#cccbd1] text-surface-foreground hover:bg-accent-light"
+                        ? "bg-accent text-button font-semibold shadow-md border border-accent-light"
+                        : "bg-button text-surface-foreground hover:bg-accent-light"
                 }`
             }
             to="/"
@@ -20,13 +20,25 @@ const Navbar = () => (
             className={({ isActive }) =>
                 `px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-300 ${
                     isActive
-                        ? "bg-accent text-accent-foreground font-semibold shadow-md"
-                        : "bg-[#cccbd1] text-surface-goreground hover:bg-accent-light"
+                        ? "bg-accent text-button font-semibold shadow-md border border-accent-light"
+                        : "bg-button text-surface-foreground hover:bg-accent-light"
                 }`
             }
             to="/projects"
         >
             Projects
+        </NavLink>
+        <NavLink
+            className={({ isActive }) =>
+                `px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-300 ${
+                    isActive
+                        ? "bg-accent text-button font-semibold shadow-md border border-accent-light"
+                        : "bg-button text-surface-foreground hover:bg-accent-light"
+                }`
+            }
+            to="/resume"
+        >
+            Resume
         </NavLink>
     </nav>
 )

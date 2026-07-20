@@ -32,6 +32,8 @@ footer a:hover svg {
     --color-surface: #cccbd1;
     --color-surface-foreground: #222021;
 
+    --color-button: #efedf5;
+
     --font-dm-sans: DM Sans, sans-serif;
 
     --breakpoint-xs: 480px;
