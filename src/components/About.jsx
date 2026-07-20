@@ -5,7 +5,7 @@ const About = () => {
         <section className="about mx-auto w-full px-10 lg:px-20 py-16 flex flex-col md:flex-row gap-12 items-center">
             {/* Text */}
             <div className="flex-1">
-                <h2 className="text-[#61538f] mb-4 text-3xl font-bold">
+                <h2 className="text-accent mb-4 text-3xl font-bold">
                     About Me
                 </h2>
                 <p className="font-semibold leading-relaxed mb-4 text-lg">

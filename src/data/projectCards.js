@@ -6,21 +6,21 @@ const projects = [
         title: "Personal Portfolio Website",
         description: "This website! Built with React and Vite, styled with Tailwind CSS, and using React Router (HashRouter) for client-side navigation between pages. Showcases my projects, background, and interests while giving me hands-on experience strengthening my full-stack development skills.",
         icon: SiReact,
-        tags: ["React", "Tailwind CSS", "Vite", "React Router"],
+        tags: ["JavaScript", "React", "Tailwind CSS", "Vite", "React Router"],
         githubLink: "https://github.com/JoanMarie4/joanmarieleone"
     },
     {
         title: "Black Box Prompt Optimization Defense for Prompt Injection Attacks",
         description: "Introduced Black Box Prompt Optimization (BPO) as a defense against prompt injection attacks. Created custom datasets pairing prompt injection variants with safe and unsafe responses, then trained a prompt optimizer to generate refined prompts that prevent malicious instructions from being executed, laying groundwork for future BPO-based defense research.",
         icon: FaShieldAlt,
-        tags: ["Python", "Machine Learning", "AI Security"],
+        tags: ["Python", "Machine Learning", "Azure", "Data Curation", "AI Security"],
         githubLink: "https://github.com/JoanMarie4/OPI-BPO"
     },
     {
         title: "Crawler and Analysis on Online Music Discourse",
         description: "Built two custom continuous crawlers to collect posts from Reddit music subreddits and the 4chan music board. Used online datasets to parse and identify music artists across large sets of posts, organizing the data with PostgreSQL and Python libraries like Pandas, then analyzed trends in artist mentions, frequency, and toxicity scores.",
         icon: FaSpider,
-        tags: ["Python", "PostgreSQL", "Pandas", "Data Mining"],
+        tags: ["Python", "PostgreSQL", "Pandas", "Matplotlib", "Data Mining"],
         githubLink: "https://github.com/JoanMarie4/Reddit_4Chan_Music_Crawler"
     },
     {
