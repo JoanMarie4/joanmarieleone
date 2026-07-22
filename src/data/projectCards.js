@@ -4,7 +4,7 @@ import { SiReact } from 'react-icons/si'
 const projects = [
     {
         title: "Personal Portfolio Website",
-        description: "This website! Built with React and Vite, styled with Tailwind CSS, and using React Router (HashRouter) for client-side navigation between pages. Showcases my projects, background, and interests while giving me hands-on experience strengthening my full-stack development skills.",
+        description: "This website! Built with React and Vite, styled with Tailwind CSS, and using React Router (HashRouter) for client-side navigation between pages. Configured a CI/CD pipeline with GitHub Actions to automatically build and deploy the site to a custom domain on every push. Showcases my projects and background while giving me hands on experience strengthening my full-stack development skills.",
         icon: SiReact,
         tags: ["JavaScript", "React", "Tailwind CSS", "Vite", "React Router"],
         githubLink: "https://github.com/JoanMarie4/joanmarieleone"
