@@ -30,4 +30,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps 
           local-dir: ./dist/
-          server-dir: /home/u234207791/domains/joanmarieleone.com/public_html/
+          server-dir: /domains/joanmarieleone.com/public_html/
