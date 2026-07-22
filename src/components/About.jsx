@@ -24,9 +24,9 @@ const About = () => {
             </div>
 
             {/* Image */}
-            <div className="shrink-0 flex justify-center">
+            <div className="shrink-0 flex justify-center border border-gray-200 rounded-2xl">
                 <img
-                    src="/cookie.jpg"
+                    src="/JM-GradPic.jpg"
                     alt="JoanMarie"
                     className="w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-xl"
                 />
